@@ -37,7 +37,9 @@ Verificar a mensagem “Sending e-mail success!” na tela
 
 3 - Aguardar que o Maven baixe as dependências
 
-4 - Executar através da classe RunnerTest como na imagem abaixo
+4- Configurar JDK para o projeto caso precise. 
+
+5 - Executar através da classe RunnerTest como na imagem abaixo
 
 ![imagem 1](https://user-images.githubusercontent.com/47854545/115029088-fefc5000-9e9b-11eb-83bc-d0587a10afb8.png)
 
