@@ -1,0 +1,131 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-16T11:11:41.240Z",
+        "line": 5,
+        "name": "Preencher os formulários de solicitação de seguros corretamente e verificar se foi cadastrado com sucesso.",
+        "description": "",
+        "id": "verificar-a-solicitação-de-seguro-de-veículos;preencher-os-formulários-de-solicitação-de-seguros-corretamente-e-verificar-se-foi-cadastrado-com-sucesso.",
+        "after": [
+          {
+            "result": {
+              "duration": 56362500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 6122189200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que eu queira fazer uma cotação para o seguro no site \"http://sampleapp.tricentis.com/101/app.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sampleapp.tricentis.com/101/app.php\"",
+                  "offset": 54
+                }
+              ],
+              "location": "SolicitarSeguroVeiculosStep.queEuQueiraFazerUmaCotaçãoParaOSeguroNoSite(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2369786600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "preencho o formulário Enter Vehicle Data",
+            "match": {
+              "location": "SolicitarSeguroVeiculosStep.preenchoOFormulárioEnterVehicleData()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 6187835300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "preencho o formulário Enter Insurant Data",
+            "match": {
+              "location": "SolicitarSeguroVeiculosStep.preenchoOFormulárioEnterInsurantData()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 961714200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulário Enter Product Data",
+            "match": {
+              "location": "SolicitarSeguroVeiculosStep.preenchoOFormulárioEnterProductData()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 247643700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho o formulário Select Price Option",
+            "match": {
+              "location": "SolicitarSeguroVeiculosStep.preenchoOFormulárioSelectPriceOption()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1232220500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho o formulário Send Quote",
+            "match": {
+              "location": "SolicitarSeguroVeiculosStep.preenchoOFormulárioSendQuote()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8631679900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a cotação deve ser enviada para o email e apresentar a mensagem de socesso \"Sending e-mail success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sending e-mail success!\"",
+                  "offset": 75
+                }
+              ],
+              "location": "SolicitarSeguroVeiculosStep.aCotaçãoDeveSerEnviadaParaOEmailEApresentarAMensagemDeSocesso(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Verificar a solicitação de seguro de veículos",
+    "description": "",
+    "id": "verificar-a-solicitação-de-seguro-de-veículos",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/PreencherFormulario.feature",
+    "tags": []
+  }
+]
