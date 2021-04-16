@@ -1,10 +1,10 @@
 # selecaoAccenture
-
 # Projeto de Automação de testes
 
 Tecnologias utilizadas: Java, Selenium WebDrive, Cucumber, Junit, Maven e o padrão de projetos Page objects.
 
-#Funcionalidade Automatizada
+
+# Funcionalidade Automatizada
 
 Entrar no site http://sampleapp.tricentis.com/101/app.php
 
@@ -20,7 +20,8 @@ Preencher o formulário, aba “Send Quote” e pressione Send
 
 Verificar a mensagem “Sending e-mail success!” na tela
 
-#Requisitos para execução
+
+# Requisitos para execução
 
 1 - Possuir o Jdk 7 ou superior instalado na máquina
 
