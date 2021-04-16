@@ -22,7 +22,7 @@ Verificar a mensagem “Sending e-mail success!” na tela
 
 # Requisitos para execução
 
-1 - Possuir o Jdk 7 ou superior instalado na máquina
+1 - Possuir o Jdk 8 instalado na máquina
 
 2 - Possuir uma Ide para importar o projeto
 
