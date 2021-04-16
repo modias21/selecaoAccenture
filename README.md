@@ -1,4 +1,3 @@
-# selecaoAccenture
 # Projeto de Automação de testes
 
 Tecnologias utilizadas: Java, Selenium WebDrive, Cucumber, Junit, Maven e o padrão de projetos Page objects.
@@ -30,7 +29,7 @@ Verificar a mensagem “Sending e-mail success!” na tela
 3 - Possuir o navegador Google Chrome instaldo na máquina (Teste executado na versão 89.0)
 
 
-#Como executar
+# Como executar
 
 1 - Realizar o clone do projeto
 
